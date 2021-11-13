@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweet Home</title>
+    <link rel="icon"       href="C:\Users\admin\Desktop\CSS Practice\media\logo for title.png">
+    <link rel="stylesheet" href="C:\Users\admin\Desktop\CSS Practice\practice.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <script src="practice.js"></script>
+</head>
+<body>
+    <div class="header">
+        <h1 class="sosweet"> So Sweet Creations</h1>
+        <h5 class="quote"> - creativity is the way to creation</h5>
+    </div>
+    
+    <div class="Navibar"> 
+        <ul class="navilist">
+             <li>Home</li>
+             <li>Services</li>
+             <li>Our Designs</li>
+             <li>About Us</li>
+             <li>Gallery</li>
+        </ul>
+    </div> 
+    
+    <div class="block3d">
+        <h4>3D Graphics</h4>
+    </div>
+    
+    <div class="block2d" id="block2d" onmouseover="blockfunction()">
+        <h4>2D Graphics</h4>
+    </div>
+
+    <div class="blockvideo">
+        <h4>Video Editing</h4>
+    </div>
+
+    <div class="blockphoto">
+        <h4>Photo Editing</h4>
+    </div>
+
+    <div>
+        <button onclick="document.getElementById('form').style.display='block'" class="signupbutton" id="signpbutton" name="signupbutton">Sign Up!</button>
+        <form  class="formstyle" id="form" name="form" target="_blank" method="POST" action="">
+            <input  name="personname"  id="personname"  class="personname"   type="text"   placeholder="Enter Your Name"><br><br>
+            <input  name="phonenumber" id="phonenumber" class="phonenumber"  type="tel"    placeholder="Enter Your Mobile Number" maxlength="10"><br><br>
+            <input  name="gender"      id="genderM"     class="genderM"      type="radio"  value="male"  >
+                
+                <label for="genderM">Male</label>
+            
+            <input  name="gender"      id="genderF"     class="genderF"      type="radio"  value="female">
+
+                <label for="genderF">Female</label><br><br>
+
+            <input name="email"   id="email" class="email" type="email" placeholder="Enter Your Email"><br><br>
+            <input type="submit"> 
+        </form>
+    </div>
+    <p id="SWEET">super</p>
+    <button  type="button" id="hello" onclick="hellofunction()" >click me</button>
+    <p id="date" onclick="date()">click me to see date</p>
+
+
+</body> 
+</html>

@@ -1,0 +1,89 @@
+.header{
+    color:black;  
+    text-align: center;
+    padding: 1px;
+    margin: 2px;
+    border: 20px solid transparent;
+    border-image: url("C:/Users/admin/Desktop/CSS Practice/media/border-of-hands-vector-1297181.png") 
+                  100 / 
+                  20px 20px 20px 20px 
+                  round ;
+    background:
+                url("C:/Users/admin/Desktop/CSS Practice/media/border.png")
+                left
+                / 150px 150px
+                no-repeat,
+                
+                url("C:/Users/admin/Desktop/CSS Practice/media/so sweet logo.png")
+                right
+                /500px 150px
+                no-repeat
+                rgba(140, 43, 231, 0.418);
+    text-shadow: 2px 2px 5px red;
+    
+
+                
+    
+                
+                
+                
+    
+
+   
+    
+}      
+.sosweet{
+    font-family:Sofia;
+    padding:1px;
+    
+    
+}
+
+.quote{
+    font-size: 20px;
+    background-image: linear-gradient();
+    text-transform: capitalize;
+}
+.Navibar{
+    
+    background-color: blue;
+    position: sticky;
+    top: 0px;
+       
+    
+}
+.navilist{
+    list-style-type: none;
+    display: inline;
+}
+li{
+    display: inline-block;
+}
+
+    
+
+.block3d{
+    height: 100px;
+    background-image:linear-gradient( to right, red,yellow,blue);
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    transition: height 1s;
+    
+    
+    
+  
+}
+.block3d:hover{
+    background-color: brown;
+    height: 200px;  
+
+
+}
+.formstyle{
+    background-color: rgb(20, 192, 235);
+    padding: 20px 20px 20px 20px;
+    border: 5px solid red;
+    box-shadow: 5px 5px 1px rgba(53, 50, 50, 0.377) ;
+    display:none;
+
+}
